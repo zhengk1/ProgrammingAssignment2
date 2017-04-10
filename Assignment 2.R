@@ -39,4 +39,17 @@ cacheSolve <- function (x,...){
 #Test
 invMatrix <-makeCacheMatrix(matrix(c(1,2,5,7),2,2))
 invMatrix$get()
-cacheSolve(invMatrix)
+#> mymatrix$get()
+#     [,1] [,2]
+#[1,]    1    5
+#[2,]    2    7
+cacheSolve(invMatrix) 
+#> cacheSolve(invMatrix)
+#           [,1]       [,2]
+#[1,] -2.3333333  1.6666667
+#[2,]  0.6666667 -0.3333333
+#> cacheSolve(invMatrix)
+#getting cache data
+#           [,1]       [,2]
+#[1,] -2.3333333  1.6666667
+#[2,]  0.6666667 -0.3333333
